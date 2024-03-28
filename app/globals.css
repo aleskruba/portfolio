@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ body {
+    overflow: hidden;
+} 
+
+.flip-card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* color of the scrollbar */
+    border-radius: 5px; /* roundness of the scrollbar */
+  }
+
+  .bg-with-image {
+    background-image: url('/brnonight.jpg');
+  }
+  
+  @media (max-width: 767px) {
+    .md\:bg-with-background {
+      background-image: none; /* Set background image to none for smaller screens */
+    }
+  }
+
+  @keyframes increaseTextSize {
+    0% {
+  
+      color: white;
+      font-weight: 100; /* Initial font weight */
+    }
+    25% {
+      color: yellow; /* Change to yellow at 50% of the animation */
+      font-weight: 200; /* Example font weight (adjust as needed) */
+    }
+    50% {
+      color: greenyellow; /* Change to yellow at 50% of the animation */
+      font-weight: 300; /* Example font weight (adjust as needed) */
+    }
+    75% {
+      color: yellow;; /* Change to yellow at 50% of the animation */
+      font-weight: 200; /* Example font weight (adjust as needed) */
+    }
+    
+    100% {
+      color: white; /* Revert back to white at the end */
+      font-weight: 100; /* Final font weight */
+    }
+  }
+  
+  .animate-text-size {
+    animation: increaseTextSize 1.5s forwards;
+  }
+  
