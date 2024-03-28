@@ -48,7 +48,8 @@ const ProjectCard = ({ image, title, htmlContent, url, github }: Props) => {
                     className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4'
                 >
                     <div className='absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]' />
-                    <div className='flex flex-col gap-4 py-3 z-[30]' dangerouslySetInnerHTML={{ __html: htmlContent }} />
+                    <div className='text-base text-violet-400'>{title}</div>
+                         <div className='flex flex-col gap-4 py-3 z-[30] text-xs' dangerouslySetInnerHTML={{ __html: htmlContent }} />
                 </div>
             </motion.div>
             <div className='absolute bottom-2 right-3'>

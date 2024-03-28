@@ -202,6 +202,15 @@ export const Projects = [
     url:"https://lengua-app.onrender.com",
     github:"https://github.com/aleskruba/LENGUA-APP.git"
   },
+  {
+    title: "German test in Rest JS",
+    text: ` <br><br> Eesy german test - my beginnings with React JS
+
+    `,
+    src: "/german.png",
+    url:"https://peaceful-bublanina-16dac5.netlify.app",
+    github:"https://github.com/aleskruba/react_deploy_netlify.git"
+  },
 ];
 
 export const NavLinks = [
