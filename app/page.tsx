@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute flex bottom-28  z-[20] right-5 flex-col md:hidden gap-2">
+      <div className="absolute flex bottom-32  z-[20] right-5 flex-col md:hidden gap-2">
         <Link
           href="/my-skills"
           className="rounded-[20px] text-base group bg-trasparent border border-white px-5 py-2  text-white max-w-[200px] hover:bg-gray hover:bg-gray-800"
