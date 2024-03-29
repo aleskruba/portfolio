@@ -111,7 +111,7 @@ export const Projects = [
     title: "Spanish teacher  & touristic guide - NEXT JS full-stack app  with MONGODB and Prisma Integration,TypeScript",
     text: `I've built a full-stack webpage for my Colombian friend.\n
     <br/>
-    <br/> 
+  
     The app includes:\n
     <br/>
 
