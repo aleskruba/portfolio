@@ -2,31 +2,32 @@
 import React,{useEffect,useState} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useMediaQuery } from 'react-responsive';
 
 export default function Home() {
-
+  //lg:bg-center' style={{ backgroundImage: "url(/brnonight.jpg)" }}
   const aspectRatio = 1; // Calculate the actual aspect ratio here
-
+  const isLgScreen = useMediaQuery({ minWidth: 1024 });
     // Set the width and calculate the corresponding height based on the aspect ratio
     const width = 480; // Set the desired width
     const height = Math.round(width / aspectRatio);
 
     //{{backgroundImage:"url(/bg-img.webp"}}
   return (
-    <main className='w-screen h-screen relative'>
-<div className='flex items-center w-full h-full bg-cover bg-center bg-black md:bg-cover md:bg-center' style={{ backgroundImage: "url(/brnonight.jpg)" }}>
-    <div className=' pl-2 md:pl-40 pb-36 md:pb-40 flex-col gap-5 z-[20]  md:[z-10] max-w-[750px]  bg-trasparent'>
+    <main className='w-screen h-screen overflow-y-auto lg:h-screen relative ' >
+<div className='flex flex-wrap items-start pt-5 w-full h-full bg-black bg-cover bg-center overflow-y-auto' style={{ backgroundImage: isLgScreen ? "url(/brnonight.jpg)" : "none" }}>
+    <div className=' relative mt-24 pl-2 md:pl-40 pb-36 md:pb-40 flex-col gap-5 z-[20]  md:[z-10] max-w-[750px]'>
    
-      <p className='text-white z-[20] font-thin text-xl mb-4 '>
+      <p className='text-white  z-50 font-thin text-lg sticky'>
          Hey there! <span className='mt-10'> I'm Aleš, and I come from Brno. I started exploring web development back in 2018, initially with Python and its frameworks Flask and Django. From 2021 I started diving into <strong className='text-yellow-200'>JavaScript</strong>  and <strong className='text-yellow-200'>React js</strong>
          . At the same time I learned how to create a server and APIs using library <strong className='text-yellow-200'>Express</strong>  in Node js and connect it to a database. Additionally, I am familiar with PHP.  I can also create and utilize simple relationship tables in SQL databases and MongoDB.I am currently developing  websites in <strong className='text-yellow-200'>Next js</strong>.
           Despite being a bit further along in life, I'm excited about the idea of starting a career in IT.    
       </span></p>
-      <div className="flex-col md:flex-row  md:mt-24 hidden md:flex gap-5">
+      <div className="flex-col md:flex-row md:mt-16 mt-2 hidden md:flex gap-5 ">
             <Link
               href="/my-skills"
               className="rounded-[20px] group relative bg-trasparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
-            ><div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
+            ><div className="absolute  rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               My Skills
             </Link>
             <Link
@@ -47,23 +48,23 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute flex bottom-16  z-[20] right-5 flex-col md:hidden gap-5">
+      <div className="absolute flex bottom-28  z-[20] right-5 flex-col md:hidden gap-2">
         <Link
           href="/my-skills"
-          className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px] hover:bg-gray hover:bg-gray-800"
+          className="rounded-[20px] text-base group bg-trasparent border border-white px-5 py-2  text-white max-w-[200px] hover:bg-gray hover:bg-gray-800"
         >
           My Skills
         </Link>
 
         <Link
           href="/my-projects"
-          className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px] hover:bg-gray-800"
+          className="rounded-[20px] group bg-trasparent border border-white px-5 py-2 text-base text-white max-w-[200px] hover:bg-gray-800"
         >
           My projects
         </Link>
         <Link
           href="/contact-me"
-          className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px] hover:bg-gray-800"
+          className="rounded-[20px] group bg-trasparent border border-white px-5 py-2 text-base text-white max-w-[200px] hover:bg-gray-800"
         >
           Contact me
         </Link>
