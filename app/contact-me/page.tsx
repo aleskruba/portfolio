@@ -11,7 +11,7 @@ const Page = () => {
         style={{ backgroundImage: "url(react.jpg" }}
         className="h-[60%] w-[80%] relative bg-cover bg-center rounded-xl border border-white"
       >
-        <div className=" flex justify-center   items-center md:justify-start md:items-start  md:mt-8 md:ml-8 h-full">
+<div className="flex justify-center items-start pt-2 md:justify-start md:items-start md:mt-8 md:ml-8 h-full transition-all duration-1000 group-hover:items-center">
           <ContactForm />
         </div>
       </div>
