@@ -1,0 +1,7 @@
+/* animations.css */
+
+@keyframes moveToEnd {
+    0% { justify-items: start; }
+    100% { justify-items: end; }
+  }
+  

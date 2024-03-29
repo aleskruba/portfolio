@@ -35,15 +35,38 @@
     border-radius: 5px; /* roundness of the scrollbar */
   }
 
+  .custom-scrollbar {
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+}
+
   .bg-with-image {
     background-image: url('/brnonight.jpg');
   }
+
+  @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    #contact {
+        background-image: none; /* Hide background image for small screens */
+    }
+}
   
   @media (max-width: 767px) {
     .md\:bg-with-background {
-      background-image: none; /* Set background image to none for smaller screens */
+      background-Image: none; /* Set background image to none for smaller screens */
     }
   }
+
+  @keyframes moveToEnd {
+    0% { justify-items: start; }
+    100% { justify-items: end; }
+  }
+  
 
   @keyframes increaseTextSize {
     0% {

@@ -67,7 +67,7 @@ function Navigation() {
     className="absolute z-[50] -bottom-20 w-[50%] md:w-[50%] max-h-[150px] rounded-md flex justify-between items-center border bg-black border-white px-4 py-7"
   >
 
-    {isRouting && <Transition />}
+  {/*   {isRouting && <Transition />} */}
     {NavLinks.map((nav) => (
       <Link key={nav.name} href={nav.link}     className="mb-16 md:ml-16 md:pl-4 md:w-[50%]  relative">
 
