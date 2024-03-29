@@ -20,7 +20,7 @@ return (
       </div>
 
       <div className="mt-2 text-base font-light text-white ">
-        Communication in Czech, English, and Spanish.
+        Communication in Czech, English, Spanish.
       </div>
     </div>
   );
