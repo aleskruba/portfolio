@@ -142,7 +142,7 @@ export const Projects = [
     url:"https://usereducer-typescript-simulator.vercel.app/",
     github:"https://github.com/aleskruba/usereducer-typescript-simulator.git"
   },
-  {
+/*   {
     title: "E-SHOP  - REACT JS ,EXPRESS, MONGO DB  ",
     text: `I develepoed a simple eshop app,This project was one of my first full-stack projects in React JS, utilizing an Express server, MongoDB  
    <br/>
@@ -158,7 +158,7 @@ export const Projects = [
     src: "/eshop.png",
     url:"https://eshop-clientstatic.onrender.com/",
     github:"https://github.com/aleskruba/eshop-client.git"
-  },
+  }, */
   
   {
     title: "LENGUA APP  - REACT JS ,EXPRESS, MONGO DB, WEB SOCKET",
