@@ -64,14 +64,14 @@ function Navigation() {
   return (
     <div
     style={{ left: "25%" }}
-    className="absolute z-[50] -bottom-20 w-[50%] md:w-[50%] max-h-[150px] rounded-md flex justify-between items-center border bg-black border-white px-4 py-7"
+    className="absolute z-[50] bottom-0 w-[50%] md:w-[50%] max-h-[150px] rounded-md flex justify-between items-center border bg-black-500 border-white px-4 py-7"
   >
 
   {/*   {isRouting && <Transition />} */}
     {NavLinks.map((nav) => (
-      <Link key={nav.name} href={nav.link}     className="mb-16 md:ml-16 md:pl-4 md:w-[50%]  relative">
+      <Link key={nav.name} href={nav.link}     className="mb-0 md:ml-0 md:pl-4 md:w-[50%]  relative">
 
-      <div className="absolute w-[100px] h-[44px] left-[-10px] bottom-1 opacity-0 md:text-purple-800 md:hover:opacity-100">{nav.alt}
+      <div className="absolute w-[100px] h-[44px] left-[-10px] bottom-1 opacity-0 md:text-gray-400 md:hover:opacity-100">{nav.alt}
       </div>
         <nav.icon
           className={`w-[24px] h-[24px] hover:text-purple-800  ${
