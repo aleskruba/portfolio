@@ -64,7 +64,7 @@ function Navigation() {
   return (
     <div
     style={{ left: "25%" }}
-    className="absolute z-[50] -bottom-20 w-[50%] md:w-[50%] max-h-[150px] rounded-md flex justify-between items-center border bg-black border-white px-4 py-7"
+    className="fixed z-[50] -bottom-20 w-[50%] md:w-[50%] max-h-[150px] rounded-md flex justify-between items-center border bg-black border-white px-4 py-7"
   >
 
   {/*   {isRouting && <Transition />} */}
