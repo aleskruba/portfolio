@@ -15,7 +15,7 @@ const Page = () => {
 
       <div id='main' style={{height:'100vh'}}
    
-      className="h-full w-screen flex flex-col items-center custom-scrollbar justify-start bg-cover bg-center overflow-y-auto bg-gradient-to-t from-black to-very-dark-purple scrollbar-hide"
+      className="h-screen w-screen flex flex-col items-center custom-scrollbar justify-start bg-cover bg-center overflow-y-auto bg-gradient-to-t from-black to-very-dark-purple scrollbar-hide"
     >
     {/*   <div className="fixed h-[100px] w-full bg-black z-[20]"></div> */}
       <div className="flex flex-col gap-2 max-w-[80%] max-h-[80vh] text-center items-center ">
