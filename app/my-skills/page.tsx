@@ -107,6 +107,7 @@ const Page = () => {
     </li>
   </ul>
   <h1 className="text-xl font-bold mb-2">Backend</h1>
+  <li className="mb-4">Next.js</li>
   <ul className="list-disc pl-6">
     <li className="mb-4">
       Node.js
@@ -114,9 +115,10 @@ const Page = () => {
         <li className="ml-4">Express</li>
       </ul>
     </li>
+    <li className="mb-4">PHP</li>
     <li className="mb-4">MySQL</li>
     <li className="mb-4">MongoDB</li>
-    <li className="mb-4">Redis</li>
+
    </ul>
    <h1 className="text-xl font-bold mb-2">Other Skills</h1>
         <ul className="list-disc pl-6">
@@ -140,11 +142,12 @@ As an amateur programmer, I've created applications using state manegment tools 
     <p className="mt-10 font-thin">
       <strong className="text-xl text-yellow-400">Express.js:</strong> In the Express framework, I have experiences connecting the server to a database and setting up routes for handling GET, POST, PUT, DELETE methods.  I am able to create authentication servers for login, registration, update, change password and other related functionalities, i can also create and use middleware functions for authorization purposes.
       I've also worked on implementing functionality for JWT tokens to create httpOnly cookies in order to have the authenticaton processes more secure.</p>
+
+      <p className="mt-10 font-thin">
+      <strong className="text-xl text-yellow-400">PHP:</strong> I can develop authentication forms and basic chat apps or e-shops using PHP and MY SQL database, managing user sessions. I also utilize JavaScript to fetch data from PHP endpoints, enabling dynamic web experiences </p>
     <p className="mt-10 font-thin">
       <strong className="text-xl text-yellow-400">Databases:</strong> I've used MySQL and MongoDB. In MySQL, I can create simple tables that relate to each other. With MongoDB, I'm gaining proficiency in creating basic data structures while continuously learning about managing relationships.
     </p>
-    <p className="mt-10 font-thin">
-      <strong className="text-xl text-yellow-400">Redis:</strong> I am familiar... .    </p>
     <p className="mt-10 font-thin">
       <strong className="text-xl text-yellow-400">Prisma:</strong> I've been using Prisma in some of my React projects to simplify database management. 
     </p>
@@ -155,10 +158,10 @@ As an amateur programmer, I've created applications using state manegment tools 
       <strong className="text-xl text-yellow-400">GraphQL:</strong> Currently, I've been exploring GraphQL . 
     </p>
     <p className="mt-10 font-thin">
-      <strong className="text-xl text-yellow-400">Docker:</strong> I am familiar... . 
+      <strong className="text-xl text-yellow-400">Docker:</strong> I can create an image of the project and store in Docker hub
     </p>
     <p className="mt-10 font-thin">
-      <strong className="text-xl text-yellow-400">Work in Git and Github:</strong> I am familiar... . 
+      <strong className="text-xl text-yellow-400">Work in Git and Github:</strong> pushing a pulling projects
     </p>
     <p className="mt-10 font-thin">
       <strong className="text-xl text-yellow-400">Styles :</strong> I have experience using classic CSS or Tailwind . I know how to work with both Flexbox and Grid to create responsive and dynamic layouts. 
