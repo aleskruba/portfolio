@@ -93,6 +93,7 @@ export const Socials = [
   },
 ];
 export const Projects = [
+
   {
     title: "School app,  NEXT JS full-stack app  with MONGODB and Prisma Integration,TypeScript, Pusher",
     text: `I've built a full-stack web page , real time chat, real time grades .\n
@@ -123,6 +124,22 @@ export const Projects = [
     github:"https://github.com/aleskruba/juan-pablo.git"
   },
   {
+    title: "Spanish teacher  & Raact JS",
+    text: `I've built a static webpage  for my Colombian friend
+    <br/>
+  
+    The app includes:
+    <br/>
+    <br/>
+    It is a simple responsive static webpage using context for changing themes and some animation effect using library framer-motion 
+  
+
+    `,
+      src: "/dani.png",
+    url:"https://daniela-4a16.onrender.com/",
+    github:"https://github.com/aleskruba/daniela.git"
+  },
+  {
     title: "Newspaper articles - NEXT JS,TypeScript",
     text: ` In Next JS I created a webpage that displays articles from different newspapers. 
     <br/>
@@ -142,23 +159,23 @@ export const Projects = [
     url:"https://usereducer-typescript-simulator.vercel.app/",
     github:"https://github.com/aleskruba/usereducer-typescript-simulator.git"
   },
-/*   {
-    title: "E-SHOP  - REACT JS ,EXPRESS, MONGO DB  ",
-    text: `I develepoed a simple eshop app,This project was one of my first full-stack projects in React JS, utilizing an Express server, MongoDB  
+   {
+    title: "E-SHOP - PHP ,MY-SQL, javascript   ",
+    text: `I develepoed a simple eshop app,This project was one of my first full-stack projects in PHP, using MY-SQL database and javascript  
    <br/>
    <br/>
-    \nIt includes the following features:
-    \n
-    \n-Full authentication functionality.
-    \n- Logged in users can buy products and write revies .
-    \n- Ability for users to see List of orders and to print an invoice.
-    \n- Admin page , Admin can add products .
-    <b style="color: red;"> MY APP ON RENDER.COM'S FREE TIER SLEEPS WHEN INACTIVE. I MUST REDEPLOY TO WAKE IT.</b>
+    It includes the following features:
+    <br/>
+    <br/>
+    Full authentication function including uploaded photo using cloudinary storage .
+    <br/> Logged in users can buy products and write revies .
+    <br/>Ability for users to see List of orders.
+    <br/>Admin page , Admin can add and mage products .
   `,
-    src: "/eshop.png",
-    url:"https://eshop-clientstatic.onrender.com/",
-    github:"https://github.com/aleskruba/eshop-client.git"
-  }, */
+    src: "/dokram.png",
+    url:"https://comments.dokram.cz",
+    github:"https://github.com/aleskruba/php-eshop.git"
+  }, 
   
   {
     title: "LENGUA APP  - REACT JS ,EXPRESS, MONGO DB, WEB SOCKET",
